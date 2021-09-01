@@ -1,7 +1,0 @@
-    if (value === '+' || value === '-' || value === '*' || value === '/' || value === '.'){
-        document.getElementById("display").value += value 
-    }
-
-    if(value === '='){
-           var displayValue = document.getElementById("display").value += value 
-    }
