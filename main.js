@@ -1,3 +1,10 @@
 function calculate(type, value){
-    console.log(type, value)
+   if (type === 'action') { 
+       if(value === 'c'){
+        document.getElementById("display").value = ''
+       }
+
+   } else if(type === 'value'){
+       document.getElementById("display").value += value 
+   }
 }
